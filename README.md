@@ -1,2 +1,1 @@
-# olivia-kingma-portfolio
-Livs portfolio website
+# Liv's portfolio website @livkingma.com
