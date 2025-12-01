@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png">
+    <link rel="manifest" href="./static/site.webmanifest">
     <script src="htmx.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="block" >happy</div>
-        <div class="block">happy</div>
-        <div class="block">birthday</div>
-        <div class="block">liv!</div>
-        <div class="block">&#128143;</div>
+    <div class="wrapper">
+        <div class="container shuffler">
+            <div class="block first" >happy</div>
+            <div class="block">happy</div>
+            <div class="block">birthday</div>
+            <div class="block">liv!</div>
+        </div>
+        <div>
+            <a style="align-self: flex-end" href="/card"><div class="block emoji hoverable">&#128143;</div></a>
+        </div>
     </div>
 </body>
