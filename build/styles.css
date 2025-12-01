@@ -1,0 +1,42 @@
+
+@font-face {
+ font-family: "billo";
+ src: url(static/billo.ttf);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right,#ADD8E6
+, pink);
+  flex-direction: column;
+  justify-items: center;
+	align-items: center;
+  display: flex;
+	margin: 0;
+	font-family: "billo";
+	font-size: 100px;
+	font-weight: 300;
+
+}
+
+
+.container {
+		flex-grow: 1;
+		height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
+}
+
+.block {
+		flex-grow: 1;
+    display: flex;
+    justify-content: center;
+		align-items: center;
+}
