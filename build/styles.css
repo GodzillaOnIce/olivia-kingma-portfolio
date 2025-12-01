@@ -65,7 +65,7 @@ a {
 }
 
 .shuffler {
-	animation: shuffle 4s ease 1s infinite alternate;
+	animation: shuffle 3s cubic-bezier(0.25, 0.1, 0.25, 1) 0.5s infinite alternate;
 }
 
 .block {
